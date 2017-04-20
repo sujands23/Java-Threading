@@ -18,9 +18,9 @@ public class ReadXmlSAXParser {
 			
 			SAXParser saxParser=factory.newSAXParser();//Use SAXParserFactory to create SAXParser Object.
 			
-			//Default handler for SAX handler class
 			
-			DefaultHandler handler=new DefaultHandler();
+			
+			DefaultHandler handler=new DefaultHandler();//Default handler for SAX handler class
 			
 			
 			
